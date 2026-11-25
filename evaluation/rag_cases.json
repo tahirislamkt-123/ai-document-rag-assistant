@@ -1,0 +1,51 @@
+{
+  "calibration_cases": [
+    {
+      "question": "How much holiday do staff receive?",
+      "answerable": true
+    },
+    {
+      "question": "Is security training mandatory?",
+      "answerable": true
+    },
+    {
+      "question": "When can I contact the technical helpdesk?",
+      "answerable": true
+    },
+    {
+      "question": "What is the deadline for claiming expenses?",
+      "answerable": true
+    },
+    {
+      "question": "Where is the company's headquarters?",
+      "answerable": false
+    },
+    {
+      "question": "How many sick leave days do employees receive?",
+      "answerable": false
+    },
+    {
+      "question": "What is the company's password length requirement?",
+      "answerable": false
+    },
+    {
+      "question": "What is the pension contribution rate?",
+      "answerable": false
+    }
+  ],
+  "evaluation_cases": [
+    {
+      "question": "How many annual leave days are full-time employees entitled to?",
+      "answerable": true,
+      "expected_answer_substring": "25",
+      "expected_source": "sample_handbook.pdf",
+      "expected_page": 4,
+      "expected_chunk_id": "policy-leave-p4",
+      "supporting_text": "25 days"
+    },
+    {
+      "question": "Where is the main office located?",
+      "answerable": false
+    }
+  ]
+}

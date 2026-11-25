@@ -1,0 +1,9 @@
+faiss-cpu>=1.7.4,<2
+fastapi>=0.110,<1
+numpy>=1.23.5,<3
+pypdf>=4,<7
+python-multipart>=0.0.9,<1
+sentence-transformers>=2.6,<6
+torch>=2.0,<3
+transformers>=4.37,<5
+uvicorn>=0.27,<1

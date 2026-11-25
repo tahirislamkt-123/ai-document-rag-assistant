@@ -1,0 +1,47 @@
+
+{
+  "documents": [
+    {
+      "id": "policy-leave-p4",
+      "source": "sample_handbook.pdf",
+      "page": 4,
+      "text": "Full-time employees receive 25 days of annual leave each year."
+    },
+    {
+      "id": "policy-security-p8",
+      "source": "sample_handbook.pdf",
+      "page": 8,
+      "text": "Employees must complete cybersecurity awareness training."
+    },
+    {
+      "id": "policy-support-p11",
+      "source": "sample_handbook.pdf",
+      "page": 11,
+      "text": "IT technical support operates Monday to Friday from 9 AM to 5 PM."
+    },
+    {
+      "id": "policy-expenses-p14",
+      "source": "sample_handbook.pdf",
+      "page": 14,
+      "text": "Employees must submit expense claims within 30 days."
+    }
+  ],
+  "queries": [
+    {
+      "question": "How much holiday do staff receive?",
+      "relevant_ids": ["policy-leave-p4"]
+    },
+    {
+      "question": "Is security training mandatory?",
+      "relevant_ids": ["policy-security-p8"]
+    },
+    {
+      "question": "When can I contact the technical helpdesk?",
+      "relevant_ids": ["policy-support-p11"]
+    },
+    {
+      "question": "What is the deadline for claiming expenses?",
+      "relevant_ids": ["policy-expenses-p14"]
+    }
+  ]
+}
